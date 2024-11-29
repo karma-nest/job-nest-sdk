@@ -2,14 +2,16 @@
   "name": "@job-nest/sdk",
   "version": "1.0.0",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
+    "format": "nx format",
+    "lint": "nx lint",
     "build": "tsc",
     "test": "jest",
     "prepublishOnly": "npm run build"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "job-nest",
   "description": "",
   "devDependencies": {
     "typescript": "^5.7.2"
